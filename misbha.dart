@@ -49,7 +49,8 @@ class _MisbhaState extends State<MisbhaPage> {
     for (int i = 0; i < 50; i++) {
       if (counter == 46) {
         counter = 0;
-        roll = i;
+        roll = i + roll;
+        roll ++;
       }
        
     }
