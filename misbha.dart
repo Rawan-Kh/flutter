@@ -51,6 +51,7 @@ class _MisbhaState extends State<MisbhaPage> {
         counter = 0;
         roll = i + roll;
         roll ++;
+        name = "سبحان الله" ;
       }
        
     }
